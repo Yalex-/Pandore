@@ -1,4 +1,4 @@
-![Build Status](http://doc.getpandore.com/pandore.png) Pandore
+![Logo Pandore](http://doc.getpandore.com/pandore.png "Logo Pandore") Pandore
 =======
 
 A small PHP framework for large projects.
