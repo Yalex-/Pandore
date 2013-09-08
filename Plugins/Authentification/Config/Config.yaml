@@ -1,0 +1,20 @@
+# Value to be check for authentification.
+# Must be filled to enable plugin.
+KeyToCheck: Key
+# Default value for key.
+DefaultValue: Guest
+
+Modules:
+  # Permissions for Foo Module.
+  FooModule:
+    actions:
+      # Permissions for default action.
+      default:
+        authorized: [Member]
+      # Permissions for foo action.
+      fooAction:
+        unauthorized: [Guest, Banned]
+    # Default permissions for the Foo Module.
+    permissions:
+      authorized: [Member]
+      unauthorized: [Banned]
