@@ -9,9 +9,13 @@ To get started, check out [http://getpandore.com](http://getpandore.com) !
 
 Several options are avaiblable :
 
-- [Download the latest boilerplate release](https://github.com/Yalex-/Pandore-boilerplate/archive/master.zip).
+- [Download the latest Pandore-boilerplate release](https://github.com/Yalex-/Pandore-boilerplate/archive/master.zip) for your new project.
+- See the [Pandore-boilerplate github project](https://github.com/Yalex-/Pandore-boilerplate/).
+
+or
+
 - Clone this repo : `git clone git://github.com/Yalex-/pandore.git`.
-- Read the [Getting Started](http://http://getpandore.com/Getting_Started) page, the complete [documentation]() or the [Doxygen documentation](http://doc.getpandore.com).
+- Read the [Getting Started](http://getpandore.com/Getting_Started) page, the complete [documentation]() or the [Doxygen documentation](http://doc.getpandore.com).
 
 ## Versionning
 
@@ -25,8 +29,16 @@ and constructed with the following guildelines :
 - new additions without breaking backward compatibility bumps the minor (and resets the patch),
 - bug fixes and misc changes bumps the patch.
 
-
 For more information on SemVer, please visit [http://semver.org/](http://semver.org/).
+
+## Commit tags
+
+Comment syntax : `[Tag] Comments`.  
+`[Fea]` : new feature(s).  
+`[Fix]` : bugfix.  
+`[Qa]`  : quality assurance.  
+`[Ref]` : refactoring.  
+`[Wip]` : work in progress (limited usage).  
 
 ## Authors
 
